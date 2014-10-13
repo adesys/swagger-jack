@@ -1,0 +1,49 @@
+{
+  "author": "Feugy",
+  "name": "swagger-jack",
+  "description": "Express compliant tooling to generate swagger Json API and validate Web-layer input/output. Based on json-gate",
+  "contributors": [ 
+    {
+      "name": "Filirom1",
+      "email": "filirom1@gmail.com"
+    },{
+      "name": "Simon Lopez",
+      "email": "simon.lopez@slopez.org"
+    } 
+  ],
+  "keywords": [
+    "swagger",
+    "express",
+    "validation",
+    "api",
+    "descriptor"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feugy/swagger-jack"
+  },
+  "license": "MIT",
+  "version": "1.6.3",
+  "main": "lib/index.js",
+  "engines": {
+    "node": "+0.8.0"
+  },
+  "scripts": {
+    "test": "cake test",
+    "prepublish": "cake build"
+  },
+  "dependencies": {
+    "async": "0.2.6",
+    "coffee-script": "1.6.2",
+    "express": "3.1.0",
+    "json-gate": "0.8.21",
+    "underscore": "1.4.4",
+    "request": "2.16.6",
+    "rimraf": "2.1.4"
+  },
+  "devDependencies": {
+    "chai": "1.5.0",
+    "js-yaml": "2.0.3",
+    "mocha": "1.8.2"
+  }
+}
